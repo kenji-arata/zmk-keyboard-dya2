@@ -1,0 +1,13 @@
+#include "dya2.dtsi"
+
+&animation_layer_status {
+    pixels = <3 2 1 0>;
+};
+
+&endpoint_status_animation {
+    pixels = <3 2 1 0>;
+};
+
+&battery_status_animation {
+    pixels = <3 2 1 0>;
+};
