@@ -39,3 +39,7 @@ west zmk-build
 ```
 
 If build succeeds, the firmware shows up under `../build/<artifact>/zephyr/zmk.uf2`.
+
+## Default keymap
+
+![](keymap-drawer/dya2.svg)
