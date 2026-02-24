@@ -44,6 +44,8 @@
 			activation-animation = <&battery_status_animation>;
 			activation-animation-duration-ms = <1000>;
 			ext-power = <&led_power>;
+			default-battery-brightness = <2>;
+			default-powered-brightness = <5>;
 		};
 		/omit-if-no-ref/ init_animation: init {
 			compatible = "zmk,animation-compose";
