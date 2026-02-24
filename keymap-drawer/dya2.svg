@@ -2196,21 +2196,18 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">END</text>
 </g>
-<g transform="translate(14, 126)" class="key trans keypos-74">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(14, 126)" class="key keypos-74">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
+<text x="0" y="0" class="key tap">&amp;df_nxt</text>
 </g>
-<g transform="translate(14, 154)" class="key trans keypos-75">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(14, 154)" class="key keypos-75">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
-<g transform="translate(1028, 126)" class="key trans keypos-76">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(1028, 126)" class="key keypos-76">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
-<g transform="translate(1028, 154)" class="key trans keypos-77">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(1028, 154)" class="key keypos-77">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
 <g transform="translate(83, 157)" class="key trans keypos-78">
 <rect rx="6" ry="6" x="-47" y="-9" width="94" height="18" class="key trans"/>

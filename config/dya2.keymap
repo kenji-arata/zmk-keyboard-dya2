@@ -74,6 +74,22 @@
                      , <&macro_tap &kp LEFT_ARROW>
                      , <&macro_release &kp LCTRL &kp LWIN>;
         )
+        // Disconnect from all BLE once for reliable connection to selected profile.
+        // ZMK automatically reconnects to current profile right after disconnection.
+        bt_nxt: bt_nxt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <50>;
+            bindings = <&out OUT_BLE &bt BT_NXT &bt BT_DISC 0 &bt BT_DISC 1 &bt BT_DISC 2 &bt BT_DISC 3>;
+            display-name = "BT Next with disconnect";
+        };
+        // Change default layer for current transport.
+        df_nxt: df_nxt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&df DF_INC &animtrig ANM_TRG 2>;
+            display-name = "Default Layer Next with LED";
+        };
     };
     behaviors {
         btselclr: bt_sel_clear {
@@ -169,7 +185,7 @@
             &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             &trans  &animtrig ANM_TRG 0  &animtrig ANM_TRG 1  &animtrig ANM_TRG 2  &trans  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PG_UP  &trans
             &studio_unlock  &trans  &trans  &trans  &trans  &trans                                                          &trans  &trans  &trans  &kp HOME  &kp PG_DN  &kp END
-            &trans  &trans                                                                                                                                  &trans  &trans
+            &df_nxt &none                                                                                                                                  &none  &none
             &trans  &trans  &trans  &trans                                                                                                  &trans  &trans  &trans  &trans
             >;
         };

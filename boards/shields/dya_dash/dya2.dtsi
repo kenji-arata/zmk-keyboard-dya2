@@ -85,7 +85,7 @@
 		/omit-if-no-ref/ battery_status_animation: battery_status {
 			compatible = "zmk,animation-battery-status";
 			status = "okay";
-			pixels = <0 1 2 3>;
+			pixels = <3 2 1 0>;
 			color-high = <HSL(120, 100, 50)>;// green
 			color-middle = <HSL(60, 100, 50)>;// yellow
 			color-low = <HSL(0, 100, 50)>;// red
