@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk_driver_animation/animation_trigger.h>
 #include <zmk_driver_animation/animation.dtsi>
 #include <zmk_driver_animation/animation_layer_status.dtsi>
-#include <behaviors/battery_history_request.dtsi>
 
 #include <input/processors.dtsi>
 #include <input/processors/runtime-input-processor.dtsi>
@@ -44,6 +43,8 @@
 			activation-animation = <&battery_status_animation>;
 			activation-animation-duration-ms = <1000>;
 			ext-power = <&led_power>;
+			default-battery-brightness = <2>;
+			default-powered-brightness = <5>;
 		};
 		/omit-if-no-ref/ init_animation: init {
 			compatible = "zmk,animation-compose";

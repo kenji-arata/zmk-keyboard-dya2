@@ -483,7 +483,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - 'LED
 
     Battery'
@@ -504,7 +504,7 @@ layers:
   - {t: ▽, type: trans}
   - PG UP
   - {type: held}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -570,7 +570,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
   - '&mkp RCLK'
   - '&mkp MCLK'
   - {t: Scroll, h: sticky}
