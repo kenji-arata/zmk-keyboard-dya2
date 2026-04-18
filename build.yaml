@@ -6,6 +6,14 @@ include:
       - studio-rpc-usb-uart
       - right-trackball
 
+  - artifact: right_trackball_studio_unlocked
+    board: seeeduino_xiao_ble
+    shield: dya2_right
+    snippets:
+      - studio-rpc-usb-uart
+      - right-trackball
+    cmake-args: -DCONFIG_ZMK_STUDIO_LOCKING=n
+
   - artifact: left
     board: seeeduino_xiao_ble
     shield: dya2_left
