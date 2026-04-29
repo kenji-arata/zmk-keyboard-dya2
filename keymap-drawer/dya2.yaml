@@ -54,13 +54,13 @@ layers:
   - C
   - V
   - B
-  - Sft+Gui+P
+  - Sft+Gui+Q
   - N
   - M
   - ','
   - .
   - {t: SCROLLLOCK, h: sticky}
-  - RSHIFT
+  - '&msc MOVE_X(10)'
   - ↑
   - Config
   - LEFT COMMAND
@@ -70,8 +70,8 @@ layers:
   - ''
   - '&mkp MB1'
   - ENTER
-  - {t: DEL, h: Win}
-  - RALT
+  - {t: BACKSPACE, h: Win}
+  - '&msc MOVE_Y(10)'
   - ←
   - ↓
   - →

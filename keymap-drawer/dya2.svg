@@ -345,7 +345,7 @@ path.combo {
 <g transform="translate(552, 196)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+Gui+</tspan><tspan x="0" dy="1.2em">P</tspan>
+<tspan x="0" dy="-0.6em">Sft+Gui+</tspan><tspan x="0" dy="1.2em">Q</tspan>
 </text>
 </g>
 <g transform="translate(608, 196)" class="key keypos-54">
@@ -371,7 +371,9 @@ path.combo {
 </g>
 <g transform="translate(888, 196)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RSHIFT</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">&amp;msc</tspan><tspan x="0" dy="1.2em">MOVE_X(</tspan><tspan x="0" dy="1.2em">10)</tspan>
+</text>
 </g>
 <g transform="translate(944, 196)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -417,13 +419,15 @@ path.combo {
 </g>
 <g transform="translate(580, 252)" class="key keypos-69">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DEL</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 89%">BACKSPACE</tspan></text>
 <a href="#Win">
 <text x="0" y="24" class="key hold layer-activator">Win</text>
 </a></g>
 <g transform="translate(832, 241)" class="key keypos-70">
 <rect rx="6" ry="6" x="-26" y="-15" width="52" height="30" class="key"/>
-<text x="0" y="0" class="key tap">RALT</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">&amp;msc</tspan><tspan x="0" dy="1.2em">MOVE_Y(</tspan><tspan x="0" dy="1.2em">10)</tspan>
+</text>
 </g>
 <g transform="translate(888, 252)" class="key keypos-71">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
