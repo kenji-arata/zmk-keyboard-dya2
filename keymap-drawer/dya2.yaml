@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: dya2}
 layers:
   Base:
-  - {t: ESC, s: '`'}
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -33,7 +33,7 @@ layers:
   - '['
   - ']'
   - \
-  - LCTRL
+  - Ctl+CAPSLOCK
   - A
   - S
   - D
@@ -59,7 +59,7 @@ layers:
   - M
   - ','
   - .
-  - '&msc MOVE_Y(10)'
+  - {t: SCROLLLOCK, h: sticky}
   - RSHIFT
   - ↑
   - Config

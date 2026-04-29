@@ -130,7 +130,6 @@ path.combo {
 <g transform="translate(62, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<text x="0" y="-24" class="key shifted">`</text>
 </g>
 <g transform="translate(118, 28)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -257,7 +256,9 @@ path.combo {
 </g>
 <g transform="translate(83, 129)" class="key keypos-32">
 <rect rx="6" ry="6" x="-47" y="-15" width="94" height="30" class="key"/>
-<text x="0" y="0" class="key tap">LCTRL</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">CAPSLOCK</tspan>
+</text>
 </g>
 <g transform="translate(160, 140)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -361,9 +362,8 @@ path.combo {
 </g>
 <g transform="translate(832, 196)" class="key keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;msc</tspan><tspan x="0" dy="1.2em">MOVE_Y(</tspan><tspan x="0" dy="1.2em">10)</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 80%">SCROLLLOCK</tspan></text>
+<text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(888, 196)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
