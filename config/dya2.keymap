@@ -154,7 +154,7 @@
         win_layer {
             display-name = "Win";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(N0))  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &comPass  &kp LS(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &simplePass  &kp LS(LG(Q))  &trans  &trans  &trans  &trans  &kp LG(TAB)  &kp A  &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK  &trans  &trans  &kp LS(LC(TAB))  &kp LG(W)  &kp LC(TAB)  &kp A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(N0))  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &comPass  &kp LS(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &simplePass  &kp LS(LG(Q))  &trans  &trans  &trans  &trans  &kp LG(T)  &kp A  &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK  &trans  &trans  &kp LS(LC(TAB))  &kp LG(W)  &kp LC(TAB)  &kp A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
