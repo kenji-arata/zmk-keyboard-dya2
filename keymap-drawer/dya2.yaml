@@ -33,7 +33,7 @@ layers:
   - '['
   - ']'
   - \
-  - Ctl+CAPSLOCK
+  - CAPSLOCK
   - A
   - S
   - D

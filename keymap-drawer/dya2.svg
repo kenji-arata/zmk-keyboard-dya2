@@ -256,9 +256,7 @@ path.combo {
 </g>
 <g transform="translate(83, 129)" class="key keypos-32">
 <rect rx="6" ry="6" x="-47" y="-15" width="94" height="30" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">CAPSLOCK</tspan>
-</text>
+<text x="0" y="0" class="key tap">CAPSLOCK</text>
 </g>
 <g transform="translate(160, 140)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
