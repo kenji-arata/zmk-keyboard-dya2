@@ -142,7 +142,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&simplePass'
-  - Sft+Gui+W
+  - Sft+Gui+Q
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
