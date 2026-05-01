@@ -9,12 +9,12 @@ layers:
   - '5'
   - '6'
   - '7'
-  - '6'
   - '8'
   - '9'
   - '0'
   - '`'
   - '-'
+  - '='
   - '='
   - BSPC
   - ''
@@ -40,13 +40,13 @@ layers:
   - F
   - G
   - H
-  - Sft+Gui+S
   - H
   - J
   - K
   - L
   - ;
   - ''''
+  - CAPS
   - CAPSLOCK
   - LSHIFT
   - Z
@@ -54,13 +54,13 @@ layers:
   - C
   - V
   - B
-  - Sft+Gui+Q
   - N
   - M
-  - {t: ',', h: Win}
-  - .
-  - {t: /, h: sticky}
-  - '&mkp MB3'
+  - ','
+  - {t: ., h: Win}
+  - /
+  - RIGHT SHIFT
+  - UP ARROW
   - ↑
   - Config
   - LEFT COMMAND
@@ -71,9 +71,9 @@ layers:
   - '&mkp MB1'
   - ENTER
   - {t: BACKSPACE, h: Win}
-  - '&msc MOVE_Y(10)'
-  - ←
-  - ↓
+  - LEFT ARROW
+  - DOWN ARROW
+  - →
   - →
   - '&nxt_win'
   - '&prv_win'
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&comPass'
-  - {t: ▽, type: trans}
+  - Sft+Gui+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -142,7 +142,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&simplePass'
-  - {t: ▽, type: trans}
+  - Sft+Gui+W
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
