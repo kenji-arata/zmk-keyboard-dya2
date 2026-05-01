@@ -40,13 +40,13 @@ layers:
   - F
   - G
   - H
+  - F12
   - H
   - J
   - K
   - L
   - ;
   - ''''
-  - CAPS
   - CAPSLOCK
   - LSHIFT
   - Z
@@ -55,11 +55,11 @@ layers:
   - V
   - B
   - N
+  - N
   - M
-  - ','
-  - {t: ., h: Win}
+  - {t: ',', h: Win}
+  - .
   - /
-  - RIGHT SHIFT
   - UP ARROW
   - ↑
   - Config
