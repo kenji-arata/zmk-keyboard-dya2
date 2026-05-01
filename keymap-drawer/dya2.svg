@@ -398,7 +398,9 @@ path.combo {
 <g transform="translate(321, 252)" class="key keypos-65">
 <rect rx="6" ry="6" x="-75" y="-26" width="150" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-</g>
+<a href="#Win">
+<text x="0" y="24" class="key hold layer-activator">Win</text>
+</a></g>
 <g transform="translate(356, 392)" class="key keypos-66">
 <rect rx="6" ry="6" x="-40" y="-26" width="80" height="52" class="key"/>
 </g>
