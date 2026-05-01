@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+TAB
+  - Gui+T
   - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
